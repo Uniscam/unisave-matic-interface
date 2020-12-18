@@ -1,4 +1,4 @@
-import { Currency } from '@unisave/unisave-heco-sdk'
+import { Currency } from '@unisave/unisave-matic-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import ReactGA from 'react-ga'
 import useLast from '../../hooks/useLast'

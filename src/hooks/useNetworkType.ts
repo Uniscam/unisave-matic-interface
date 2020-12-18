@@ -1,4 +1,4 @@
-import { ChainId } from '@unisave/unisave-heco-sdk'
+import { ChainId } from '@unisave/unisave-matic-sdk'
 
 export const useNetworkType = (chainId?: ChainId): 'ETH' | 'BSC' | null => {
   const ethIds = [ChainId.MAINNET, ChainId.ROPSTEN, ChainId.RINKEBY, ChainId.GÖRLI, ChainId.KOVAN]

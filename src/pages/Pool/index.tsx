@@ -1,6 +1,6 @@
 import React, { useContext, useMemo } from 'react'
 import styled, { ThemeContext } from 'styled-components'
-import { Pair } from '@unisave/unisave-heco-sdk'
+import { Pair } from '@unisave/unisave-matic-sdk'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { SwapPoolTabs } from '../../components/NavigationTabs'

@@ -1,4 +1,4 @@
-import { TokenAmount } from '@unisave/unisave-heco-sdk'
+import { TokenAmount } from '@unisave/unisave-matic-sdk'
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { X } from 'react-feather'

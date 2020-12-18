@@ -1,4 +1,4 @@
-import { ChainId } from '@unisave/unisave-heco-sdk'
+import { ChainId } from '@unisave/unisave-matic-sdk'
 import useNetworkType from './useNetworkType'
 
 export const useInfoLink = (chainId?: ChainId): string => {

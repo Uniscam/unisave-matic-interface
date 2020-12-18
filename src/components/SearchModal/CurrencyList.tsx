@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, currencyEquals, ETHER, Token } from '@unisave/unisave-heco-sdk'
+import { Currency, CurrencyAmount, currencyEquals, ETHER, Token } from '@unisave/unisave-matic-sdk'
 import React, { CSSProperties, MutableRefObject, useCallback, useMemo } from 'react'
 import { FixedSizeList } from 'react-window'
 import { Text } from 'rebass'

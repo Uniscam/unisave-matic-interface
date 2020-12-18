@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@unisave/unisave-heco-sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@unisave/unisave-matic-sdk'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

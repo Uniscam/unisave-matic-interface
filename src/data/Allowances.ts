@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@unisave/unisave-heco-sdk'
+import { Token, TokenAmount } from '@unisave/unisave-matic-sdk'
 import { useMemo } from 'react'
 
 import { useTokenContract } from '../hooks/useContract'

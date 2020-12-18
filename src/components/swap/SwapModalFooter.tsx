@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@unisave/unisave-heco-sdk'
+import { Trade, TradeType } from '@unisave/unisave-matic-sdk'
 import React, { useContext, useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'

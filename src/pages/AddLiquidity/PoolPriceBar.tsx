@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import { Currency, ETHER, Percent, Price } from '@unisave/unisave-heco-sdk'
+import { Currency, ETHER, Percent, Price } from '@unisave/unisave-matic-sdk'
 import React, { useContext } from 'react'
 import { Text } from 'rebass'
 import { ThemeContext } from 'styled-components'

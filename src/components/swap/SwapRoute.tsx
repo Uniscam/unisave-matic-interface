@@ -1,4 +1,4 @@
-import { Trade } from '@unisave/unisave-heco-sdk'
+import { Trade } from '@unisave/unisave-matic-sdk'
 import React, { Fragment, memo, useContext } from 'react'
 import { ChevronRight } from 'react-feather'
 import { Flex } from 'rebass'

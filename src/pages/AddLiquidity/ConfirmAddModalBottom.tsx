@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import { Currency, CurrencyAmount, Fraction, Percent } from '@unisave/unisave-heco-sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from '@unisave/unisave-matic-sdk'
 import React, { useContext } from 'react'
 import { Text } from 'rebass'
 import { useTranslation } from 'react-i18next'

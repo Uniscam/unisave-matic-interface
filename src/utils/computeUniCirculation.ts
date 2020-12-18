@@ -1,4 +1,4 @@
-import { JSBI, Token, TokenAmount } from '@unisave/unisave-heco-sdk'
+import { JSBI, Token, TokenAmount } from '@unisave/unisave-matic-sdk'
 import { BigNumber } from 'ethers'
 import { STAKING_GENESIS } from '../state/stake/hooks'
 

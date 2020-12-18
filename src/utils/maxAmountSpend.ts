@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from '@unisave/unisave-heco-sdk'
+import { CurrencyAmount, ETHER, JSBI } from '@unisave/unisave-matic-sdk'
 import { MIN_ETH } from '../constants'
 
 /**

@@ -1,5 +1,5 @@
 import { isAddress } from '../../utils'
-import { Token } from '@unisave/unisave-heco-sdk'
+import { Token } from '@unisave/unisave-matic-sdk'
 
 export function filterTokens(tokens: Token[], search: string): Token[] {
   if (search.length === 0) return tokens

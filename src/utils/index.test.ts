@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { AddressZero } from '@ethersproject/constants'
-import { TokenAmount, Token, ChainId, Percent, JSBI } from '@unisave/unisave-heco-sdk'
+import { TokenAmount, Token, ChainId, Percent, JSBI } from '@unisave/unisave-matic-sdk'
 
 import {
   getBscScanLink,

@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@unisave/unisave-heco-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@unisave/unisave-matic-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'

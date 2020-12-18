@@ -1,4 +1,4 @@
-import { Currency, currencyEquals, ETHER, WETH } from '@unisave/unisave-heco-sdk'
+import { Currency, currencyEquals, ETHER, WETH } from '@unisave/unisave-matic-sdk'
 import { useMemo } from 'react'
 import { tryParseAmount } from '../state/swap/hooks'
 import { useTransactionAdder } from '../state/transactions/hooks'

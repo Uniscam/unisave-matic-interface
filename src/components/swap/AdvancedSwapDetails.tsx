@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@unisave/unisave-heco-sdk'
+import { Trade, TradeType } from '@unisave/unisave-matic-sdk'
 import React, { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import { useTranslation } from 'react-i18next'

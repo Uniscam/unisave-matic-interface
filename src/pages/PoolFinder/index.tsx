@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import { Currency, ETHER, JSBI, TokenAmount } from '@unisave/unisave-heco-sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from '@unisave/unisave-matic-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Plus } from 'react-feather'
 import { Text } from 'rebass'

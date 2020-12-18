@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import { currencyEquals, Trade } from '@unisave/unisave-heco-sdk'
+import { currencyEquals, Trade } from '@unisave/unisave-matic-sdk'
 import React, { useCallback, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useActiveWeb3React } from '../../hooks'

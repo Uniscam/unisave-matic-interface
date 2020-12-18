@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from '@unisave/unisave-heco-sdk'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from '@unisave/unisave-matic-sdk'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 
