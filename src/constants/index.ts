@@ -52,6 +52,13 @@ export const UNI: { [chainId in ChainId]: Token } = {
     10,
     'HT',
     'Unisave'
+  ),
+  [ChainId.MATIC_MUMBAI]: new Token(
+    ChainId.MATIC_MUMBAI,
+    '0xbbEeF58A63aeb9D5BC5e5792A20B81e0DE83fD14',
+    10,
+    'MATIC',
+    'Unisave'
   )
 }
 
@@ -112,7 +119,8 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
   [ChainId.BSC_MAINNET]: [WETH[ChainId.BSC_MAINNET]],
   [ChainId.BSC_TESTNET]: [WETH[ChainId.BSC_TESTNET]],
-  [ChainId.HECO_TESTNET]: [WETH[ChainId.HECO_TESTNET]]
+  [ChainId.HECO_TESTNET]: [WETH[ChainId.HECO_TESTNET]],
+  [ChainId.MATIC_MUMBAI]: [WETH[ChainId.MATIC_MUMBAI]]
 }
 
 // used to construct intermediary pairs for trading
@@ -138,7 +146,8 @@ export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC, USDT],
   [ChainId.BSC_MAINNET]: [...WETH_ONLY[ChainId.BSC_MAINNET], B_USDT, BUSD, B_DAI],
   [ChainId.BSC_TESTNET]: [...WETH_ONLY[ChainId.BSC_TESTNET], T_USDT, T_BUSD, T_DAI],
-  [ChainId.HECO_TESTNET]: [...WETH_ONLY[ChainId.HECO_TESTNET]]
+  [ChainId.HECO_TESTNET]: [...WETH_ONLY[ChainId.HECO_TESTNET]],
+  [ChainId.MATIC_MUMBAI]: [...WETH_ONLY[ChainId.MATIC_MUMBAI]]
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
@@ -147,7 +156,8 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDC, USDT],
   [ChainId.BSC_MAINNET]: [...WETH_ONLY[ChainId.BSC_MAINNET], B_USDT, BUSD, B_DAI],
   [ChainId.BSC_TESTNET]: [...WETH_ONLY[ChainId.BSC_TESTNET], T_USDT, T_BUSD, T_DAI],
-  [ChainId.HECO_TESTNET]: [...WETH_ONLY[ChainId.HECO_TESTNET]]
+  [ChainId.HECO_TESTNET]: [...WETH_ONLY[ChainId.HECO_TESTNET]],
+  [ChainId.MATIC_MUMBAI]: [...WETH_ONLY[ChainId.MATIC_MUMBAI]]
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
