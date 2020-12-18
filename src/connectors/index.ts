@@ -7,6 +7,7 @@ import { ChainId } from '@unisave/unisave-matic-sdk'
 
 import { FortmaticConnector } from './Fortmatic'
 import { NetworkConnector } from './NetworkConnector'
+import { isNumberString } from '../utils'
 
 const NETWORK_URL = process.env.REACT_APP_NETWORK_URL
 const FORMATIC_KEY = process.env.REACT_APP_FORTMATIC_KEY
@@ -27,9 +28,10 @@ export function getNetworkLibrary(): Web3Provider {
   return (networkLibrary = networkLibrary ?? new Web3Provider(network.provider as any))
 }
 
-console.log(Object.keys(ChainId).map(Number))
 export const injected = new InjectedConnector({
-  supportedChainIds: Object.keys(ChainId).map(Number)
+  supportedChainIds: Object.keys(ChainId)
+    .filter(isNumberString)
+    .map(Number)
 })
 
 // mainnet only
